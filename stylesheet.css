@@ -92,6 +92,7 @@ main {
     background-color: lightblue;
     /* Make content take up the whole page auto */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
