@@ -104,12 +104,11 @@ footer {
 @media (min-width: 768px) {
     /* Header */
     nav {
-        position: relative;
         display: block;
+        position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-
     }
 
     #menu {
@@ -117,10 +116,23 @@ footer {
     }
 
     #menu > li {
-        margin-left: 1em;
+        padding-left: 1rem;
     }
 
     #nav-toggle-label {
         display: none;
     }
+
+    .logo {
+        font-size: 280%;
+        line-height: 15px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main Content */
+    main {
+        /* Push content down to accomadate the larger header */
+        margin-top: 60px;
+    }
+
 }
