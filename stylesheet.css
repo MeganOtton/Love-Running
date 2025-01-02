@@ -144,6 +144,23 @@ main {
     padding: 0 20px
 }
 
+#circle-cover-bg {
+    height: 90vh;
+    width: 90vh;
+    background: url(assets/images/reasons-image.webp) no-repeat top center/cover;
+    margin-bottom: 20px;
+    /* Makes square image Circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
