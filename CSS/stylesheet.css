@@ -104,7 +104,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(assets/images/hero-image.webp) no-repeat center center/cover;
+    background: url(../assets/images/hero-image.webp) no-repeat center center/cover;
     position: relative;
 }
 
@@ -153,7 +153,7 @@ main {
 #circle-cover-bg {
     height: 90vh;
     width: 90vh;
-    background: url(assets/images/reasons-image.webp) no-repeat top center/cover;
+    background: url(../assets/images/reasons-image.webp) no-repeat top center/cover;
     margin-bottom: 20px;
     /* Makes square image Circle */
     border-radius: 50%;
@@ -169,7 +169,7 @@ main {
 
 /* Meet-Up Section */
 #times {
-    background: url(assets/images/dublin-city.webp) no-repeat center center/cover;
+    background: url(../assets/images/dublin-city.webp) no-repeat center center/cover;
     /* Handles responsivity without the need of a media  query */
     display: flex;
     flex-wrap: wrap;
@@ -206,7 +206,7 @@ main {
 
 /* Sign Up Page */
 #signup {
-    background: url(assets/images/signup-image.webp);
+    background: url(../assets/images/signup-image.webp);
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
